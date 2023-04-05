@@ -165,7 +165,7 @@ public class chat_client extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public static javax.swing.JButton Go_Back;
     public static javax.swing.JPanel Pane;
-    private javax.swing.JScrollPane jScrollPane2;
+    public static javax.swing.JScrollPane jScrollPane2;
     public static javax.swing.JButton msg_send;
     public static javax.swing.JTextField msg_textt;
     // End of variables declaration//GEN-END:variables
