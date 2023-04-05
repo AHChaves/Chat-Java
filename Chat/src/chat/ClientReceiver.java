@@ -23,6 +23,7 @@ public class ClientReceiver implements Runnable {
         Pane.add(right, "wrap, w 80%, al right");
         Pane.repaint();
         Pane.revalidate();
+        jScrollPane2.getVerticalScrollBar().setValue(jScrollPane2.getVerticalScrollBar().getMaximum());
     } 
     
     public void msgServer(String msg) {
@@ -40,6 +41,7 @@ public class ClientReceiver implements Runnable {
             Pane.add(text, "wrap, w 80%");
             Pane.repaint();
             Pane.revalidate();
+            jScrollPane2.getVerticalScrollBar().setValue(jScrollPane2.getVerticalScrollBar().getMaximum());
 
         }
         receiver.close();
