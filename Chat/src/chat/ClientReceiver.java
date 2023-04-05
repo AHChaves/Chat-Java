@@ -1,6 +1,7 @@
 package chat;
 
 import static chat.chat_client.Pane;
+import static chat.chat_client.jScrollPane2;
 import java.io.InputStream;
 import java.util.Scanner;
 
