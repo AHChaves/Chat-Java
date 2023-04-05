@@ -34,10 +34,6 @@ public class ClientThread implements Runnable {
             String msg = s.nextLine();
             if(msg.contains("<CLOSE>")){
                 server.removeClient(clientIp);
-                
-                //msg = "<Server>: Client ["+clientIp.getInetAddress().getHostAddress() + "] Disconect from the chat";
-                
-                //server.ShareMessage(msg, clientIp);
                 break;
             }
             else{
